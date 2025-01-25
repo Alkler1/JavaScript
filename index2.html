@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Começando em JavaScript</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+<body style="background-color: rgb(34, 30, 37)">
+    <h1>Aprendendo a programar e JavaScript</h1>
+    <p>Olá Mundo!</p> <!--Em HTML para escrever comentários teria de ser dessa maneira-->
+    <img class="img1" src="imagens/javaScript_full_2_70.png" alt="">
+    <script>
+        var num1 = Number.parseFloat(window.prompt ('digite um número:')) // string 
+        var num2 = Number.parseFloat(window.prompt('Digite um número em forma de fração, se utilizando de . para separar as casas decimais:')) /* string, vale lembrar que no caso de uma conversão para Float, é importante lembrar que na página se utilize de ponto "." e não vírula, pois isso prejudica o resultado*/
+        var soma = num1 + num2
+        var resultadoArredondado = soma.toFixed(2);
+        window.alert(`a soma entre ${num1} e ${num2} é igual a ${resultadoArredondado}`) //concatenação
+        // + para adição
+        // + para concatenação
+    </script>
+</body>
+</html>
